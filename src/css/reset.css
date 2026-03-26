@@ -32,3 +32,24 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+img {
+  width: 360px;
+  height: 200px;
+  display: block;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  width: 1440px;
+  padding: 24px 156px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px 24px;
+}
